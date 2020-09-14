@@ -1,3 +1,4 @@
+  
 const express = require('express');
 const routes = express.Router();
 const CurtidaController = require('../controller/curtida.controller');
