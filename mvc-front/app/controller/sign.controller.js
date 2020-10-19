@@ -24,6 +24,9 @@
                         $scope.failUser = error.data.failtype == 'auth-fail-username';
                         $scope.failPass = error.data.failtype == 'auth-fail-password';
                         $scope.msgError = error.data.msg;
+                    }else if (error.status < 0) {
+                        $scope.fatalError = 'Servidor inacessivel'; 
+
                     } else {
                         $scope.fatalError = error.data.msg;
                     }
