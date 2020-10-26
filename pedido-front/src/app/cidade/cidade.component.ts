@@ -1,6 +1,6 @@
 import { ConfirmDialogComponent, ConfirmDialogOption } from './../_components/confirm-dialog/confirm-dialog.component';
 import { MatDialog } from '@angular/material/dialog';
-import { CidadeEntity, CidadeService } from './../_services/cidade.service';
+import { CidadeEntity, CidadeService } from '../_services/cliente.service';
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { MatSidenav } from '@angular/material/sidenav';
